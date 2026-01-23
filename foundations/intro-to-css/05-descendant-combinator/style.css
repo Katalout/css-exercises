@@ -1,1 +1,10 @@
 /* Add CSS Styling */
+
+div p {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* So here i can combine two type selectors, two class selectors, or one of each, and it gives the same result. */
