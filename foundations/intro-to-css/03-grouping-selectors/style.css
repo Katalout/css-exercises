@@ -1,1 +1,16 @@
 /* Add CSS Styling */
+.black,
+.yellow {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+/* universal selector * works too, as long as there are only these two elements. If more are added, for which we need other rules, it would have to be modified to specify */
+.black {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+.yellow {
+    background-color: hsl(60, 100%, 50%);
+}
