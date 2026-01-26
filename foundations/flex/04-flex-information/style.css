@@ -1,12 +1,12 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  /* extra fun fact: text-align is NOT JUST TEXT, but all inline contents, FOR EXAMPLE AN IMGGGGGG*/
 }
 
 img {
   width: 100px;
   height: 100px;
-  margin: 0 auto;
-  display: block;
 
 }
 
